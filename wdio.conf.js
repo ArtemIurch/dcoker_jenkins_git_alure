@@ -64,24 +64,24 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [
-        {
-            // Конфигурация для Chrome
-            maxInstances: 1,
-            browserName: 'chrome',
-            acceptInsecureCerts: true
-        },
+        // {
+        //     // Конфигурация для Chrome
+        //     maxInstances: 1,
+        //     browserName: 'chrome',
+        //     acceptInsecureCerts: true
+        // },
         {
             // Конфигурация для Firefox
             maxInstances: 1,
             browserName: 'firefox',
             acceptInsecureCerts: true
         },
-        {
-            // Конфигурация для Edge
-            maxInstances: 1,
-            browserName: 'MicrosoftEdge',
-            acceptInsecureCerts: true
-        }
+        // {
+        //     // Конфигурация для Edge
+        //     maxInstances: 1,
+        //     browserName: 'MicrosoftEdge',
+        //     acceptInsecureCerts: true
+        // }
     ],
     //
     // ===================
