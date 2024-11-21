@@ -5,6 +5,7 @@ describe('My Login application', () => {
         await $('#username').setValue('tomsmith');
         await $('#password').setValue('SuperSecretPassword!');
         await $('button[type="submit"]').click();
+      
 
     });
 });
